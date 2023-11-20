@@ -7,22 +7,22 @@ public class Negara1 {
         String negara;
         if (kode.equals("ES")){
             negara = "Spain";
-            System.out.println("kode " + kode + "negara " + negara);
+            System.out.println("kode " + kode +"," + " negara " + negara);
         }else if (kode.equals("TN")) {
             negara = "Tunisia";
-            System.out.println("kode " + kode + "negara " + negara);
+            System.out.println("kode " + kode +"," + " negara " + negara);
         }else if (kode.equals("ID")) {
             negara = "Indonesia";
-            System.out.println("kode " + kode + "negara " + negara);
+            System.out.println("kode " + kode +"," + " negara " + negara);
         }else if (kode.equals("MM")) {
             negara = "Myanmar";
-            System.out.println("kode " + kode + "negara " + negara);
+            System.out.println("kode " + kode +"," + " negara " + negara);
         }else if (kode.equals("IN")) {
             negara = "India";
-            System.out.println("kode " + kode + "negara " + negara);
+            System.out.println("kode " + kode +"," + " negara " + negara);
         }else{
             System.out.println("Maaf, kode negara TIDAK DIKETAHUI");
         }
     }
-
+        
 }

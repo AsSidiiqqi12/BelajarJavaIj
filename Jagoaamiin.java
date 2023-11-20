@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Jagoaamiin {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Jumlah barang belanja");
+        System.out.println("Input jumlah barang belanja");
 
         int [] harga = {2500,3000,4000,5000,6000};
         int [] jumlahunit = new int[harga.length];
