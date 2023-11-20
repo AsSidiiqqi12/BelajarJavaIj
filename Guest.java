@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 import java.util.Scanner;
-public class ShowGuests {
+public class Guest {
     public static void main(String args[]) {
         int guests[] = {1, 4, 2, 0, 2, 1, 4, 3, 0, 2};
         int roomNum = 0;
