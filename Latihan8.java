@@ -17,12 +17,12 @@ public class Latihan8{
                 System.out.println(array[b] + " ---> GANJIL");
             }
         }
-        int r = 0;
-        for (int e = 0; e < jumdata ; e++){
-            r = r + array[e];
-        }
-        System.out.println("jumlah adalah " + r);
-        double ta = r / jumdata;
-        System.out.println("rata rata = " + ta);
+
+
+
+
+
+
+
     }
 }

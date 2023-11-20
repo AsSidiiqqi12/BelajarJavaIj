@@ -1,19 +1,12 @@
-import java.util.Scanner;
-
 public class Segitiga {
-    public static void main(String[] args){
-        Scanner input= new Scanner( System.in);
-        int alas , tinggi;
+    public static void main(String[] args) {
+        int alas = 11;
+        int tinggi = 5;
         double luas;
-        System.out.println(" masukkan alas :  ");
-        alas= input.nextInt();
-        System.out.println(" masukkan tinggi :  ");
-        tinggi= input.nextInt();
-        luas= alas * tinggi / 2;
-        System.out.println(" luas segitiga adalah " + luas);
-
-
-
+        luas = (alas * tinggi) * 0.5;
+        System.out.println(" alas segitiga = " + alas);
+        System.out.println(" tinggi segitiga = " + tinggi);
+        System.out.println(" jadi luas segitiga = " + luas);
 
     }
 }
