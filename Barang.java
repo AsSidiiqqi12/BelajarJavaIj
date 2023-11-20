@@ -10,9 +10,9 @@ public class Barang{
             itemke[a] = in.nextInt();
         }
         System.out.println("Daftar belanja dan harga:");
-        int [] hargabarang;
+
         for (int a = 0; a < hargaitem.length ; a++){
-             hargabarang = hargaitem[a] * itemke[a];
+             int hargabarang = hargaitem[a] * itemke[a];
             System.out.println("Harga barang ke-" + a + ", " + hargaitem[a] + ", " + itemke[a] + " item: " + hargabarang );
         }
         int item = 0;

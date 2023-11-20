@@ -8,7 +8,7 @@ public class Authenticator {
             JOptionPane.showInputDialog("Username:");
         String password =
             JOptionPane.showInputDialog("Password:");
-z
+
         if (
             username != null &&
             password != null &&
