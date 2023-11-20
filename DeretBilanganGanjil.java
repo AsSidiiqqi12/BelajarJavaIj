@@ -6,17 +6,17 @@ public class DeretBilanganGanjil {
 
         System.out.print("Masukkan nilai n: ");
         int n = input.nextInt();
-        System.out.println("Deret bilangan ganjil"+n+" adalah ");
-        for (int i=1;i<=n;i+=2){
-            System.out.print(i+" ");
+        System.out.println("Deret bilangan ganjil " + n + " adalah ");
+        for (int i = 1; i <= n; i += 2) {
+            System.out.print(i + " ");
 
-            }
+
         }
 
 
     }
 
-
+}
 
 
 
